@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Classic"
+title = "web"
 theme = "hugo-classic"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -11,10 +11,6 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
 [[menu.main]]
     name = "Categories"
     url = "/categories/"
