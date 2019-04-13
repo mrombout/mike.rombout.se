@@ -1,1 +1,26 @@
-footer { font-size: 90%; font-family: monospace; }
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 0.85em;
+    background-color: #090300;
+    color: #9d9a9a;
+}
+
+code {
+    background-color: black;
+}
+
+a {
+    color: #1ba1e1;
+}
+
+a:visited {
+    color: #a06b93;
+}
+
+header {
+    background-color: transparent;
+}
+
+footer {
+    font-size: 90%;
+}
