@@ -1,28 +1,40 @@
 ---
-title: Home
+title: '~'
 ---
 
-[<img src="https://github.com/goodroot/hugo-classic/raw/master/images/partywizard.gif" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/goodroot/hugo-classic)
+# Mike Rombout
 
-# Hugo.io - Classic
+## Generalist Software Engineer
 
-### For text focused goodness
+### Skills
 
-About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home. The business took off, and its founders made a lot of money and received the credit they deserved for being daring visionaries. But around the same time, Bill Gates and Paul Allen came up with an idea even stranger and more fantastical: **selling computer operating systems**. This was much weirder than the idea of Jobs and Wozniak.
+* Go, Java, C, C++, JavaScript, Ruby and many other languages.
+* Model-driven engineering in the Eclipse ecosystem using tools such as Acceleo, EMF, Sirius, Xtext and QVT.
+* Cloud engineering using tools such as Docker, Kubernetes and Terraform.
+* Other stuff like OSGi and Godot.
 
-~~~ruby
-def with_value_from_database(value)
-  self.class.from_database(name, value, type)
-end
+### Projects
 
-def with_cast_value(value)
-  self.class.with_cast_value(name, value, type)
-end
-end
-~~~
+* [gbdk_playground](https://github.com/mrombout/gbdk_playground) `[C]` - A collection of simple examples using the GBDK library for the Game Boy.
+* [vika](https://github.com/mrombout/vika) `[Go]` - A tool that runs an issue tracker locally based on a folder structure.
+* [Spiner](https://github.com/mrombout/Spiner) `[Java]` - A tool to convert a Twine 2 story into a book.
+* [gdgettext](https://github.com/mrombout/gdgettext) `[Go]` - A tool that extracts translatable strings from Godot projects.
+* [gochange](https://github.com/mrombout/gochange) `[Go]` - A tool that helps creating and manipulating changelogs that comply to the format of Keep a Changelog.
+* [gopikku](https://github.com/mrombout/gopikku) `[Go]` - A tool that runs a GitHub/GitLab style wiki locally based on a folder structure.
+* [libmodio](https://github.com/mrombout/libmodio) `[C++]` - A library that provides an API to create `.mod` tracker files.
+* [ZWatch-Poketch](https://github.com/mrombout/ZWatch-Poketch) `[Java]` - A custom watch face for the Smart Q - ZWatch resembling the Digital Watch and Analog Watch apps from the Pokétch.
 
-A computer at least had some sort of physical reality to it. It came in a box, you could open it up and plug it in and watch lights blink. An operating system had no tangible incarnation at all. It arrived on a disk, of course, but the disk was, in effect, nothing more than the box that the OS came in.
+### Interests
 
-<hr/>
+* Reading and writing fantasy novels. I try to participate in NaNoWriMo every year, it's great fun.
+* I love being inside playing board games. I also love being outside hiking in nature, especially in Norway.
+* Other stuff like 3D printing, DIY electronics and home automation.
+
+### Links
+
+* [GitHub](https://github.com/mrombout)
+* [BoardGameGeek](https://boardgamegeek.com/user/mrombout)
+
+---
 
 ### Blog
