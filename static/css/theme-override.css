@@ -24,3 +24,19 @@ header {
 footer {
     font-size: 90%;
 }
+
+blockquote {
+    background: black;
+    border-left: 3px solid #9d9a9a;
+}
+
+.article-meta {
+    background: #090300;
+    color: #9d9a9a;
+    border: 1px solid #9d9a9a;
+    border-radius: 0;
+}
+
+.content-wrapper {
+    text-align: justify;
+}
