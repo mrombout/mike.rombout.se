@@ -1,6 +1,10 @@
 # Hugo.io - Classic Theme
 
-Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name). I made a fresh remix of it for my [personal blog](https://goodroot.ca). It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
+Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name).
+
+It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
+
+[**View live demo**](https://goodroot.ca)
 
 ### Instructions
 
@@ -28,7 +32,7 @@ cd classic/themes
 git clone git@github.com:goodroot/hugo-classic.git
 ```
 
-5: Copy the `content/`, `static/css`, and `config.toml` from the `exampleSite` directory into the classic directory. The existing `content/`, `static/css`, and `config.toml` files will be over-written. 
+5: Copy files within the `exampleSite` directory into the classic directory. Overwrite the existing `content/`, `static/`, and `config.toml` files.
 
 6: Run `hugo server` within `classic/` and enjoy and customize to your hearts content!
 
@@ -64,7 +68,7 @@ Change `color:` to a nice matching colour.
 
 #### Screenshot
 
-![Screenshot of Hugo Classic](https://github.com/goodroot/hugo-classic/raw/master/images/screenshot.png)
+![Screenshot of Hugo Classic](/images/screenshot.png)
 
 ## Blog Posts
 
