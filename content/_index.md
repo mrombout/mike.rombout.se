@@ -21,7 +21,6 @@ title: '~'
 * [gopikku](https://github.com/mrombout/gopikku) `[Go]` - A tool that runs a GitHub/GitLab style wiki locally based on a folder structure.
 * [Spiner](https://github.com/mrombout/Spiner) `[Java]` - A tool to convert a Twine 2 story into a book.
 * [gbdk_playground](https://github.com/mrombout/gbdk_playground) `[C]` - A collection of simple examples using the GBDK library for the Game Boy.
-* [libmodio](https://github.com/mrombout/libmodio) `[C++]` - A library that provides an API to create `.mod` tracker files.
 * [ZWatch-Poketch](https://github.com/mrombout/ZWatch-Poketch) `[Java]` - A custom watch face for the Smart Q - ZWatch resembling the Digital Watch and Analog Watch apps from the Pokétch.
 
 ### Interests
