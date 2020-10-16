@@ -1,6 +1,6 @@
 ---
 title: "RPG #2 - Building a World"
-date: 2020-10-12
+date: 2020-10-12T11:00:00
 slug: rpg-2-building-a-world
 categories:
   - Dev Blogs

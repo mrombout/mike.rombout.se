@@ -1,6 +1,6 @@
 ---
 title: "RPG #1 - Introduction"
-date: 2020-10-12
+date: 2020-10-12T10:00:00
 slug: rpg-1-introduction
 categories:
   - Dev Blogs
