@@ -5,8 +5,9 @@ body {
     color: #9d9a9a;
 }
 
-code {
-    background-color: black;
+code, pre {
+    background-color: black !important;
+    box-shadow: none;
 }
 
 a {
