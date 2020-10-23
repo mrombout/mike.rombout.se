@@ -62,6 +62,25 @@ When the player clicks a dialogue option I `post()` to the Semaphore causing the
 
 > Unfortunately Godot does not support debugging on a thread ([#2446](https://github.com/godotengine/godot/issues/2446)).
 
+The GDScript equivalant of of the custom DSL script above would look like the following:
+
+```
+extends EntityScript
+
+func start():
+	narrate("You hear a buzzing coming from the tree")
+	choice_menu("Investigate?", {
+		"yes": "Yes please!",
+		"no": "I'd rather not."
+	})
+	match(choice()):
+		"yes":
+			narrate("Not the bees! AAAAAHHHH! My eyes!")
+			decrease_variable("player_health", 10)
+		"no":
+			narrate("You decide to leave it alone and live another day.")
+```
+
 I played around this with and implemented a simple level that plays an animation and a sound and then sends a signal to a nearby gate which in turns also plays an animation and a sound, opens up and disables it's collision box to allow passage.
 
 ```gdscript
