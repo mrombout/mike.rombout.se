@@ -15,7 +15,6 @@ title: '~'
 
 ### Projects
 
-* [vika](https://github.com/mrombout/vika) `[Go]` - A tool that runs an issue tracker locally based on a folder structure.
 * [gdgettext](https://github.com/mrombout/gdgettext) `[Go]` - A tool that extracts translatable strings from Godot projects.
 * [gochange](https://github.com/mrombout/gochange) `[Go]` - A tool that helps creating and manipulating changelogs that comply to the format of Keep a Changelog.
 * [gopikku](https://github.com/mrombout/gopikku) `[Go]` - A tool that runs a GitHub/GitLab style wiki locally based on a folder structure.
