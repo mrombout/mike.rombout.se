@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="{{ . | absURL }}">
     {{- end }}
     {{ partial "head_custom.html" . }}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'}});</script>
   </head>
 
   <body>
