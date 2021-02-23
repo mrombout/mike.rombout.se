@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "web"
-theme = "hugo-classic"
+theme = "hugo-protagonist"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
@@ -11,22 +11,28 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-[[menu.feed]]
-    name = "Subscribe"
-    url = "/index.xml"
-
 [params]
+    AuthorName = "Mike Rombout"
     description = "A simple, minimal blog for those who love text."
     footer = "Open-Source | [Github](https://github.com/mrombout/mrombout.github.io)"
     custom_css = ["css/theme-override.css"]
 
-[markup.goldmark.renderer]
-unsafe = true
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight = 2
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+[markup]
+    [markup.highlight]
+        style = "emacs"
+    [markup.goldmark.renderer]
+        unsafe = true

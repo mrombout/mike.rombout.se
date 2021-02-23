@@ -1,0 +1,3 @@
+[submodule "themes/hugo-protagonist"]
+	path = themes/hugo-protagonist
+	url = git@github.com:mrombout/hugo-protagonist.git
