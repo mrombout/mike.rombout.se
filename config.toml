@@ -34,3 +34,8 @@ footnotereturnlinkcontents = "↩"
         style = "emacs"
     [markup.goldmark.renderer]
         unsafe = true
+
+[privacy]
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
