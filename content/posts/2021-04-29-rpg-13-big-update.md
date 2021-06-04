@@ -24,7 +24,7 @@ New features on order of appearance:
 
 * Character creation screen
 * Basic foraging skill
-* Inventory screen
+* [Inventory screen]({{< relref path="2021-06-04-rpg-14-inventories.md">}})
 * Weapons are now 2D
 * Water shader
 * Incredibly basic combat
