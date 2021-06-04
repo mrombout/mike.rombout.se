@@ -51,6 +51,8 @@ This has proved to be quite flexible as I've used inventories for more than just
 
 ## Usage
 
+![Screenshot of Draeywin showing the player inventory screen](/img/inventory.png)
+
 Obviously, the player's inventory is implemented using this system.
 For now, the player can only own one inventory, so I've just hardcoded the `player` inventory to be that of the player.
 
