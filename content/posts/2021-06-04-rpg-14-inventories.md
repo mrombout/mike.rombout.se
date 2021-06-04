@@ -51,28 +51,28 @@ This has proved to be quite flexible as I've used inventories for more than just
 
 ## Usage
 
-![Screenshot of Draeywin showing the player inventory screen](/img/inventory.png)
-
 Obviously, the player's inventory is implemented using this system.
 For now, the player can only own one inventory, so I've just hardcoded the `player` inventory to be that of the player.
+
+![Screenshot of Draeywin showing the player inventory screen](/img/inventory.png)
 
 It's containers that are in the world such as chests, barrels, etc.
 Having them available through the `InventoryManager` makes it easy to access them through scripting at any point in time.
 Being able to put `Script`s on inventories makes it easy to e.g. trigger traps, generate random contents, etc.
-
-![Screenshot of Draeywin showing the store screen using the inventory system to store the items](/img/store.png)
 
 Next, I'm using inventories for stores.
 A store simply displays an inventory.
 When a player sells or buys the items are simply transferred from one inventory to another.
 Again a `Script` may be used to e.g. restock and store dynamically.
 
-![Screenshot of Draeywin showing the Spellbook using the inventory system to store the spells](/img/spellbook.png)
+![Screenshot of Draeywin showing the store screen using the inventory system to store the items](/img/store.png)
 
 Finally, and this is a bit of a hack, I'm using inventories for the player spellbook.
 Since spells are something that the player can wield, they are simply implemented as items (weapon to be exact).
 So rather than invent another system I've created a dedicated `players_spellbook` inventory that contains all the player's spells.
 This inventory is only shown in the game through the spellbook screen.
+
+![Screenshot of Draeywin showing the Spellbook using the inventory system to store the spells](/img/spellbook.png)
 
 ## Conclusion
 
