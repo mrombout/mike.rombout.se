@@ -58,7 +58,7 @@ It's containers that are in the world such as chests, barrels, etc.
 Having them available through the `InventoryManager` makes it easy to access them through scripting at any point in time.
 Being able to put `Script`s on inventories makes it easy to e.g. trigger traps, generate random contents, etc.
 
-![Screenshot of Draeywin showing the Spellbook using the inventory system to store the spells](/img/store.png)
+![Screenshot of Draeywin showing the store screen using the inventory system to store the items](/img/store.png)
 
 Next, I'm using inventories for stores.
 A store simply displays an inventory.
