@@ -2,7 +2,7 @@
 title: Mike Rombout
 ---
 
-Hello! I am `Mike Rombout`, and I'm a Software Engineer building microservices at Philips HealthSuite digital platform.
+Hello! I am `Mike Rombout`, and I'm a Software Engineer at [Elastisys](https://elastisys.com/) helping customers succeed with Kubernetes!
 
 ## Skills
 
