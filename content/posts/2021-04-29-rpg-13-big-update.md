@@ -33,7 +33,7 @@ New features on order of appearance:
 * Small town with moving watermill
 * Interiors
 * Shopping
-* World travel screen
+* [World travel screen]({{< relref path="2021-09-11-rpg-15-traveling.md">}})
 * World travel events
 * Big city with NPCs
 * Quest journal
