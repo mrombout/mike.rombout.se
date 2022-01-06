@@ -1,3 +1,3 @@
-# mikero.nl
+# mike.rombout.se
 
-Theme based on [hugo-classic](https://github.com/goodroot/hugo-classic).
+Theme is [hugo-protagonist](https://github.com/mrombout/hugo-protagonist).
