@@ -1,6 +1,6 @@
 ---
 title: "RPG #23 - Reflection on Godot"
-date: 2022-01-76T08:53:28+01:00
+date: 2022-01-07T08:53:28+01:00
 slug: rpg-23-reflection-on-godot
 categories:
   - Dev Blogs
